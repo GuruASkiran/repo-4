@@ -19,6 +19,7 @@
         const myfather=new person("john","sing","45");
         document.getElementById("demo").innerHTML="my father is"+myfather.age+",";
         </script>
+        <h2>hii hello</h2>
         </body>
         </html>
 
