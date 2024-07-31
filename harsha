@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            </style>
+            </head>
+            <body>
+                <p id="demo"></p>
+        <script>
+        function person(first,last,age){
+            this.firstName=first;
+            this.lastName=last;
+            this.age=age;
+        
+        }
+        const myfather=new person("john","sing","45");
+        document.getElementById("demo").innerHTML="my father is"+myfather.age+",";
+        </script>
+        </body>
+        </html>
+
+
+            
